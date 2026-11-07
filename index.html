@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Machado &amp; Vasconcelos — Advocacia em São Paulo</title>
+<meta name="description" content="Sociedade de advogados em São Paulo desde 2004. Direito de família, trabalhista, empresarial, imobiliário, consumidor e previdenciário. Resposta em 24h.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://machadovasconcelos.adv.br/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Machado &amp; Vasconcelos — Advocacia em São Paulo">
+<meta property="og:description" content="Clareza jurídica em decisões que pesam. Seis áreas de prática, resposta em 24h.">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://machadovasconcelos.adv.br/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0E1116">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' fill='%230E1116'/><text x='16' y='22' font-family='Georgia,serif' font-size='16' fill='%23D9C6A4' text-anchor='middle'>MV</text></svg>">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LegalService",
+  "name": "Machado & Vasconcelos Sociedade de Advogados",
+  "url": "https://machadovasconcelos.adv.br/",
+  "description": "Sociedade de advogados em São Paulo desde 2004, com atuação em Direito de Família, Trabalhista, Empresarial, Imobiliário, do Consumidor e Previdenciário.",
+  "areaServed": "São Paulo, SP, BR",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Av. Paulista, 1374 — Bela Vista",
+    "addressLocality": "São Paulo",
+    "addressRegion": "SP",
+    "postalCode": "01310-100",
+    "addressCountry": "BR"
+  },
+  "telephone": "+55-11-3000-0000",
+  "email": "contato@machadovasconcelos.adv.br",
+  "priceRange": "$$$",
+  "openingHours": "Mo-Fr 09:00-18:00"
+}
+</script>
+<style>
+  *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --ink:#0E1116;--ink-soft:#191E26;--ivory:#F6F3ED;--paper:#FFFFFF;
+    --gold:#A9834F;--gold-soft:#D9C6A4;--gold-line:#C4AE87;--muted:#6E6A63;--line:#E2DCD2;
+    --serif:'Cormorant Garamond',Georgia,serif;
+    --sans:'Inter',system-ui,-apple-system,sans-serif;
+    --maxw:1160px;
+  }
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--ivory);line-height:1.65;-webkit-font-smoothing:antialiased}
+  img,svg{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  button{font:inherit;cursor:pointer}
+  :focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:2px}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+  .skip{position:absolute;left:16px;top:-60px;background:var(--ink);color:var(--ivory);padding:12px 18px;z-index:100;transition:top .2s}
+  .skip:focus{top:16px}
+  .container{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+  .eyebrow{font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-weight:600}
+  h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacing:-.01em}
+  h1{font-size:clamp(2.6rem,5.6vw,4.4rem)}
+  h2{font-size:clamp(2rem,3.6vw,2.9rem)}
+  h3{font-size:1.35rem;font-weight:600}
+  p{color:var(--muted)}
+  .lead{font-size:clamp(1.05rem,1.4vw,1.18rem);color:var(--ink-soft);line-height:1.7}
+  .btn{display:inline-flex;align-items:center;gap:10px;padding:15px 26px;font-size:12.5px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;border:1px solid transparent;transition:all .25s ease}
+  .btn--gold{background:var(--gold);color:#fff}
+  .btn--gold:hover{background:#8f6f3f;transform:translateY(-1px)}
+  .btn--ghost{border-color:var(--ink);color:var(--ink)}
+  .btn--ghost:hover{background:var(--ink);color:var(--ivory)}
+  .btn--light{border-color:rgba(255,255,255,.28);color:var(--ivory)}
+  .btn--light:hover{background:var(--ivory);color:var(--ink);border-color:var(--ivory)}
+
+  /* ---------- Topbar ---------- */
+  .topbar{background:var(--ink);color:var(--ivory);font-size:11px;letter-spacing:.14em;text-transform:uppercase}
+  .topbar .container{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:10px 24px}
+  .topbar span{color:var(--gold-soft)}
+  .topbar a:hover{color:var(--gold-soft)}
+
+  /* ---------- Header / Nav ---------- */
+  header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:saturate(180%) blur(8px);border-bottom:1px solid var(--line)}
+  .nav{display:flex;align-items:center;justify-content:space-between;padding:20px 24px;max-width:var(--maxw);margin:0 auto;gap:24px}
+  .brand{display:flex;flex-direction:column;line-height:1}
+  .brand__mark{font-family:var(--serif);font-size:1.55rem;letter-spacing:.06em;color:var(--ink)}
+  .brand__mark span{color:var(--gold)}
+  .brand__sub{font-size:9.5px;letter-spacing:.35em;text-transform:uppercase;color:var(--muted);margin-top:6px}
+  .nav-links{display:flex;align-items:center;gap:32px;list-style:none}
+  .nav-links a{font-size:12.5px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft);padding:8px 0;position:relative}
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:1px;background:var(--gold);transition:width .3s}
+  .nav-links a:hover::after,.nav-links a:focus-visible::after{width:100%}
+  .nav-toggle{display:none;background:none;border:0;padding:10px;color:var(--ink)}
+  .nav-toggle svg{stroke:currentColor;stroke-width:1.6;fill:none;stroke-linecap:round}
+  .nav-toggle .close{display:none}
+  .nav-toggle[aria-expanded="true"] .open{display:none}
+  .nav-toggle[aria-expanded="true"] .close{display:block}
+
+  /* ---------- Hero ---------- */
+  .hero{background:var(--ivory);position:relative;overflow:hidden}
+  .hero::before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle at 15% 25%,rgba(169,131,79,.07),transparent 45%),radial-gradient(circle at 85% 80%,rgba(169,131,79,.05),transparent 40%);pointer-events:none}
+  .hero .container{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:64px;align-items:center;padding:96px 24px 112px}
+  .hero__eyebrow{display:inline-flex;align-items:center;gap:14px;margin-bottom:28px;color:var(--gold);font-size:11px;letter-spacing:.24em;text-transform:uppercase;font-weight:600}
+  .hero__eyebrow::before{content:"";width:40px;height:1px;background:var(--gold)}
+  .hero h1{margin-bottom:28px;color:var(--ink)}
+  .hero h1 em{font-style:italic;color:var(--gold)}
+  .hero .lead{max-width:520px;margin-bottom:40px}
+  .hero__cta{display:flex;gap:14px;flex-wrap:wrap;margin-bottom:52px}
+  .hero__trust{display:flex;gap:36px;flex-wrap:wrap;padding-top:32px;border-top:1px solid var(--line)}
+  .hero__trust div strong{display:block;font-family:var(--serif);font-size:1.6rem;color:var(--ink);font-weight:600;line-height:1}
+  .hero__trust div span{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted);margin-top:8px;display:block}
+
+  .hero__panel{position:relative;background:var(--ink);color:var(--ivory);padding:56px 44px;aspect-ratio:4/5;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
+  .hero__panel::before{content:"";position:absolute;inset:16px;border:1px solid rgba(217,198,164,.28);pointer-events:none}
+  .hero__panel::after{content:"";position:absolute;right:-80px;bottom:-80px;width:280px;height:280px;border:1px solid rgba(217,198,164,.14);border-radius:50%}
+  .hero__monogram{font-family:var(--serif);font-size:7rem;line-height:.9;color:var(--gold-soft);font-weight:400;letter-spacing:-.04em}
+  .hero__panel-quote{font-family:var(--serif);font-size:1.5rem;line-height:1.35;color:var(--ivory);font-style:italic}
+  .hero__panel-meta{font-size:10px;letter-spacing:.32em;text-transform:uppercase;color:var(--gold-soft)}
+
+  /* ---------- Section base ---------- */
+  section{padding:110px 0}
+  .section-head{max-width:680px;margin-bottom:72px}
+  .section-head .eyebrow{margin-bottom:20px;display:block}
+  .section-head p{margin-top:22px}
+
+  /* ---------- Trust bar ---------- */
+  .trust{background:var(--ink);color:var(--ivory);padding:0}
+  .trust__grid{display:grid;grid-template-columns:repeat(4,1fr)}
+  .trust__item{padding:42px 24px;border-right:1px solid rgba(255,255,255,.09);text-align:center}
+  .trust__item:last-child{border-right:0}
+  .trust__item strong{display:block;font-family:var(--serif);font-size:2.4rem;color:var(--gold-soft);font-weight:500;line-height:1;margin-bottom:10px}
+  .trust__item span{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:rgba(246,243,237,.72)}
+
+  /* ---------- Practice areas ---------- */
+  .areas{background:var(--paper)}
+  .areas__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line);border-left:1px solid var(--line)}
+  .area{padding:48px 36px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);transition:background .3s ease,transform .3s ease;position:relative}
+  .area:hover{background:var(--ivory);transform:translateY(-2px)}
+  .area__icon{width:44px;height:44px;display:flex;align-items:center;justify-content:center;color:var(--gold);margin-bottom:26px}
+  .area__icon svg{width:34px;height:34px;stroke:currentColor;fill:none;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+  .area h3{margin-bottom:12px}
+  .area p{font-size:.94rem;line-height:1.7}
+  .area__num{position:absolute;top:48px;right:36px;font-family:var(--serif);font-size:.85rem;color:var(--gold-line);letter-spacing:.1em}
+
+  /* ---------- Manifesto / About ---------- */
+  .about{background:var(--ivory)}
+  .about__grid{display:grid;grid-template-columns:1fr 1fr;gap:88px;align-items:center}
+  .about__visual{position:relative;aspect-ratio:3/4;background:linear-gradient(135deg,var(--ink) 0%,var(--ink-soft) 100%);overflow:hidden;display:flex;align-items:center;justify-content:center}
+  .about__visual::before{content:"";position:absolute;inset:22px;border:1px solid rgba(217,198,164,.35)}
+  .about__visual::after{content:"M&V";position:absolute;font-family:var(--serif);font-size:clamp(5rem,10vw,8rem);color:rgba(217,198,164,.16);letter-spacing:.05em}
+  .about__monogram{font-family:var(--serif);font-size:clamp(4rem,8vw,6rem);color:var(--gold-soft);position:relative;z-index:1;letter-spacing:-.02em}
+  .about__quote{font-family:var(--serif);font-size:clamp(1.5rem,2.2vw,1.9rem);line-height:1.35;color:var(--ink);margin-bottom:32px;font-style:italic;padding-left:24px;border-left:2px solid var(--gold)}
+  .about__body p+p{margin-top:18px}
+  .about__signature{display:flex;align-items:center;gap:16px;margin-top:36px;padding-top:28px;border-top:1px solid var(--line)}
+  .about__signature strong{display:block;font-family:var(--serif);font-size:1.05rem;color:var(--ink);font-weight:600}
+  .about__signature span{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+
+  /* ---------- Process ---------- */
+  .process{background:var(--paper)}
+  .process__grid{display:grid;grid-template-columns:repeat(4,1fr);gap:48px;margin-top:8px}
+  .step{position:relative;padding-top:32px;border-top:1px solid var(--line)}
+  .step::before{content:attr(data-num);position:absolute;top:-16px;left:0;font-family:var(--serif);font-size:2.4rem;color:var(--gold);line-height:1;background:var(--paper);padding-right:12px}
+  .step h3{margin-bottom:12px;margin-top:8px}
+  .step p{font-size:.92rem}
+
+  /* ---------- Team ---------- */
+  .team{background:var(--ivory)}
+  .team__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+  .member{background:var(--paper);border:1px solid var(--line);padding:0;transition:transform .3s ease,box-shadow .3s ease}
+  .member:hover{transform:translateY(-4px);box-shadow:0 24px 48px -24px rgba(14,17,22,.18)}
+  .member__photo{aspect-ratio:1/1;background:linear-gradient(140deg,var(--ink-soft),var(--ink));display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+  .member__photo::before{content:"";position:absolute;inset:12px;border:1px solid rgba(217,198,164,.3)}
+  .member__initials{font-family:var(--serif);font-size:4rem;color:var(--gold-soft);letter-spacing:.02em}
+  .member__body{padding:28px 28px 32px}
+  .member h3{margin-bottom:4px}
+  .member__role{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:16px;font-weight:600}
+  .member__areas{font-size:.92rem;line-height:1.6;color:var(--muted)}
+  .member__oab{font-size:11px;letter-spacing:.12em;color:var(--muted);margin-top:18px;padding-top:16px;border-top:1px solid var(--line);text-transform:uppercase}
+
+  /* ---------- Testimonials ---------- */
+  .testimonials{background:var(--ink);color:var(--ivory);position:relative;overflow:hidden}
+  .testimonials::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 80% 20%,rgba(169,131,79,.14),transparent 50%)}
+  .testimonials .container{position:relative}
+  .testimonials .section-head .eyebrow{color:var(--gold-soft)}
+  .testimonials .section-head h2{color:var(--ivory)}
+  .testimonials__grid{display:grid;grid-template-columns:repeat(3,1fr);gap:40px}
+  .quote{background:rgba(255,255,255,.03);border:1px solid rgba(217,198,164,.2);padding:40px 32px;position:relative}
+  .quote::before{content:"“";position:absolute;top:8px;left:24px;font-family:var(--serif);font-size:5rem;color:var(--gold-soft);opacity:.35;line-height:1}
+  .quote__text{font-family:var(--serif);font-size:1.15rem;line-height:1.55;color:var(--ivory);margin-bottom:26px;font-style:italic;position:relative;z-index:1}
+  .quote__author{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-soft)}
+  .quote__role{font-size:12px;color:rgba(246,243,237,.6);margin-top:6px;letter-spacing:.02em}
+
+  /* ---------- FAQ ---------- */
+  .faq{background:var(--paper)}
+  .faq__list{max-width:820px;margin:0 auto;border-top:1px solid var(--line)}
+  details{border-bottom:1px solid var(--line);padding:0}
+  summary{padding:28px 0;cursor:pointer;list-style:none;display:flex;align-items:center;justify-content:space-between;gap:24px;font-family:var(--serif);font-size:1.15rem;color:var(--ink);font-weight:600;transition:color .2s}
+  summary::-webkit-details-marker{display:none}
+  summary:hover{color:var(--gold)}
+  summary::after{content:"";width:14px;height:14px;flex-shrink:0;border-right:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(-45deg);transition:transform .25s}
+  details[open] summary::after{transform:rotate(45deg)}
+  details p{padding:0 0 28px;max-width:680px;font-size:.98rem}
+
+  /* ---------- Contact ---------- */
+  .contact{background:var(--ivory)}
+  .contact__grid{display:grid;grid-template-columns:1fr 1.15fr;gap:80px;align-items:start}
+  .contact__info h2{margin-bottom:24px}
+  .contact__info>p{margin-bottom:44px;max-width:420px}
+  .contact__items{display:flex;flex-direction:column;gap:28px}
+  .contact__item{display:flex;gap:18px;align-items:flex-start}
+  .contact__item svg{width:22px;height:22px;stroke:var(--gold);fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0;margin-top:3px}
+  .contact__item strong{display:block;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink);margin-bottom:4px;font-weight:600}
+  .contact__item a,.contact__item span{color:var(--muted);font-size:.96rem}
+  .contact__item a:hover{color:var(--gold)}
+
+  .form{background:var(--paper);border:1px solid var(--line);padding:48px 40px}
+  .form__row{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .form__field{margin-bottom:20px;display:flex;flex-direction:column}
+  .form label{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink);margin-bottom:8px;font-weight:600}
+  .form input,.form select,.form textarea{width:100%;padding:14px 16px;border:1px solid var(--line);background:var(--ivory);font-family:inherit;font-size:.95rem;color:var(--ink);transition:border-color .2s,background .2s;border-radius:0}
+  .form input:focus,.form select:focus,.form textarea:focus{outline:none;border-color:var(--gold);background:var(--paper);box-shadow:0 0 0 3px rgba(169,131,79,.1)}
+  .form textarea{resize:vertical;min-height:120px}
+  .form__check{display:flex;gap:12px;align-items:flex-start;margin-bottom:24px;font-size:.82rem;color:var(--muted);line-height:1.5}
+  .form__check input{width:16px;height:16px;flex-shrink:0;margin-top:3px;padding:0}
+  .form .btn{width:100%;justify-content:center;padding:17px 26px}
+  .form__status{margin-top:18px;font-size:.9rem;color:#2E7D4F;display:none;text-align:center}
+  .form__status:not(:empty){display:block}
+
+  /* ---------- Footer ---------- */
+  footer{background:var(--ink);color:rgba(246,243,237,.7);padding:80px 0 0}
+  .footer__grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:56px;padding-bottom:64px;border-bottom:1px solid rgba(255,255,255,.08)}
+  .footer__brand .brand__mark{color:var(--ivory);font-size:1.6rem}
+  .footer__brand .brand__sub{color:var(--gold-soft)}
+  .footer__brand p{color:rgba(246,243,237,.55);font-size:.9rem;margin-top:20px;max-width:320px;line-height:1.7}
+  .footer__col h4{font-family:var(--sans);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-soft);margin-bottom:22px;font-weight:600}
+  .footer__col ul{list-style:none;display:flex;flex-direction:column;gap:12px}
+  .footer__col a{font-size:.92rem;color:rgba(246,243,237,.7);transition:color .2s}
+  .footer__col a:hover{color:var(--gold-soft)}
+  .footer__bottom{padding:28px 0;display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;font-size:12px;color:rgba(246,243,237,.45);border-top:1px solid rgba(255,255,255,.06)}
+  .footer__bottom a{color:rgba(246,243,237,.55)}
+  .footer__bottom a:hover{color:var(--gold-soft)}
+
+  /* ---------- Reveal ---------- */
+  .reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+  .reveal.is-visible{opacity:1;transform:none}
+
+  /* ---------- Responsive ---------- */
+  @media (max-width:1024px){
+    .hero .container{grid-template-columns:1fr;gap:56px;padding:72px 24px 88px}
+    .hero__panel{aspect-ratio:auto;padding:48px 36px;min-height:340px}
+    .hero__monogram{font-size:5rem}
+    .about__grid{grid-template-columns:1fr;gap:56px}
+    .about__visual{max-width:420px;margin:0 auto}
+    .process__grid{grid-template-columns:repeat(2,1fr);gap:56px 40px}
+    .team__grid{grid-template-columns:1fr;max-width:480px;margin:0 auto}
+    .testimonials__grid{grid-template-columns:1fr;gap:24px}
+    .contact__grid{grid-template-columns:1fr;gap:56px}
+    .footer__grid{grid-template-columns:1fr 1fr;gap:40px}
+    .trust__grid{grid-template-columns:repeat(2,1fr)}
+    .trust__item:nth-child(2){border-right:0}
+    .trust__item:nth-child(1),.trust__item:nth-child(2){border-bottom:1px solid rgba(255,255,255,.09)}
+  }
+  @media (max-width:860px){
+    section{padding:80px 0}
+    .nav-links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--paper);padding:16px 24px 28px;border-bottom:1px solid var(--line);box-shadow:0 20px 40px -20px rgba(0,0,0,.15);gap:4px;align-items:flex-start}
+    .nav-links.is-open{display:flex}
+    .nav-links a{padding:14px 0;width:100%;font-size:14px}
+    .nav-toggle{display:block}
+    .nav .btn--gold{display:none}
+    .areas__grid{grid-template-columns:1fr 1fr}
+    .form__row{grid-template-columns:1fr}
+    .form{padding:32px 24px}
+  }
+  @media (max-width:560px){
+    .hero__trust{gap:20px}
+    .hero__trust div strong{font-size:1.35rem}
+    .areas__grid{grid-template-columns:1fr}
+    .process__grid{grid-template-columns:1fr}
+    .trust__grid{grid-template-columns:1fr}
+    .trust__item{border-right:0;border-bottom:1px solid rgba(255,255,255,.09)}
+    .trust__item:last-child{border-bottom:0}
+    .topbar .container{justify-content:center;text-align:center}
+    .topbar a{display:none}
+    .footer__grid{grid-template-columns:1fr;gap:36px}
+    .hero__cta{flex-direction:column;align-items:stretch}
+    .hero__cta .btn{justify-content:center}
+    .hero__panel{padding:36px 28px}
+    .hero__monogram{font-size:4rem}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation-duration:.001ms !important;transition-duration:.001ms !important;scroll-behavior:auto !important}
+    .reveal{opacity:1;transform:none}
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Pular para o conteúdo principal</a>
+
+<div class="topbar">
+  <div class="container">
+    <span>OAB/SP 12.345 — Sociedade de Advogados</span>
+    <a href="tel:+551130000000" aria-label="Ligar para o escritório">(11) 3000-0000</a>
+  </div>
+</div>
+
+<header>
+  <nav class="nav" aria-label="Principal">
+    <a href="#top" class="brand" aria-label="Machado e Vasconcelos — Início">
+      <span class="brand__mark">Machado <span>&amp;</span> Vasconcelos</span>
+      <span class="brand__sub">Advocacia · São Paulo · Desde 2004</span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+      <svg class="open" width="26" height="26" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="close" width="26" height="26" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+    <ul class="nav-links" id="menu">
+      <li><a href="#areas">Áreas</a></li>
+      <li><a href="#sobre">O escritório</a></li>
+      <li><a href="#equipa">Equipa</a></li>
+      <li><a href="#faq">Perguntas</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+    <a href="#contacto" class="btn btn--gold">Agendar consulta</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- ══════════════ HERO ══════════════ -->
+  <section class="hero" id="top">
+    <div class="container">
+      <div>
+        <span class="hero__eyebrow">Desde 2004 · São Paulo</span>
+        <h1>Clareza jurídica em <em>decisões</em> que pesam.</h1>
+        <p class="lead">Sociedade de advogados em São Paulo. Atuamos em seis áreas do direito com a mesma premissa: compreender o seu caso antes de qualquer recomendação.</p>
+        <div class="hero__cta">
+          <a href="#contacto" class="btn btn--gold">Agendar consulta</a>
+          <a href="#areas" class="btn btn--ghost">Ver áreas de prática</a>
+        </div>
+        <div class="hero__trust">
+          <div><strong>20+</strong><span>Anos de atuação</span></div>
+          <div><strong>6</strong><span>Áreas de prática</span></div>
+          <div><strong>24h</strong><span>Para primeira resposta</span></div>
+        </div>
+      </div>
+      <aside class="hero__panel" aria-label="Identidade do escritório">
+        <div>
+          <div class="hero__panel-meta">Sociedade de advogados</div>
+          <div class="hero__monogram" aria-hidden="true">M&amp;V</div>
+        </div>
+        <p class="hero__panel-quote">Advocacia de precisão não é sobre parecer complexo — é sobre tornar o próximo passo compreensível.</p>
+        <div class="hero__panel-meta">OAB/SP · São Paulo</div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ══════════════ TRUST BAR ══════════════ -->
+  <div class="trust">
+    <div class="container" style="padding:0">
+      <div class="trust__grid">
+        <div class="trust__item"><strong>20+</strong><span>Anos de atuação</span></div>
+        <div class="trust__item"><strong>1.200+</strong><span>Casos acompanhados</span></div>
+        <div class="trust__item"><strong>24h</strong><span>Resposta inicial</span></div>
+        <div class="trust__item"><strong>100%</strong><span>Casos com sócio responsável</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════ ÁREAS DE PRÁTICA ══════════════ -->
+  <section class="areas" id="areas">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Áreas de prática</span>
+        <h2>Seis especialidades. Um mesmo método.</h2>
+        <p>Cada área tem um sócio responsável e um protocolo de atendimento próprio. O que não muda é a forma como tratamos o seu caso: com contexto, alternativas e prazos claros.</p>
+      </div>
+
+      <div class="areas__grid">
+        <article class="area">
+          <span class="area__num">01</span>
+          <div class="area__icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><circle cx="12" cy="10" r="4"/><circle cx="22" cy="13" r="3"/><path d="M4 26c0-4.4 3.6-8 8-8s8 3.6 8 8"/><path d="M17 26c0-2.8 2.2-5 5-5s5 2.2 5 5"/></svg>
+          </div>
+          <h3>Direito de Família</h3>
+          <p>Divórcio, guarda, alimentos, união estável, inventário e planejamento sucessório — com sensibilidade e discrição.</p>
+        </article>
+
+        <article class="area">
+          <span class="area__num">02</span>
+          <div class="area__icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><rect x="4" y="11" width="24" height="16" rx="1.5"/><path d="M12 11V8a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v3"/><path d="M4 18h24"/><path d="M14 18v3h4v-3"/></svg>
+          </div>
+          <h3>Direito Trabalhista</h3>
+          <p>Defesa de empregadores e empregados, acordos, rescisões, audiências e consultoria preventiva de riscos.</p>
+        </article>
+
+        <article class="area">
+          <span class="area__num">03</span>
+          <div class="area__icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><rect x="6" y="6" width="14" height="22" rx="1"/><rect x="20" y="13" width="8" height="15" rx="1"/><path d="M10 11h2M10 15h2M10 19h2M14 11h2M14 15h2M14 19h2M24 17h2M24 21h2M24 25h2"/></svg>
+          </div>
+          <h3>Direito Empresarial</h3>
+          <p>Constituição de sociedades, contratos, governança, compliance e resolução de conflitos societários.</p>
+        </article>
+
+        <article class="area">
+          <span class="area__num">04</span>
+          <div class="area__icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M4 15 16 5l12 10"/><path d="M7 13v14h18V13"/><path d="M13 27v-7h6v7"/></svg>
+          </div>
+          <h3>Direito Imobiliário</h3>
+          <p>Compra e venda, locação, usucapião, incorporação e regularização fundiária — da due diligence ao registo.</p>
+        </article>
+
+        <article class="area">
+          <span class="area__num">05</span>
+          <div class="area__icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M16 4 26 8v8c0 6-4 10-10 12-6-2-10-6-10-12V8l10-4z"/><path d="m11 16 3 3 7-7"/></svg>
+          </div>
+          <h3>Direito do Consumidor</h3>
+          <p>Defesa em falhas de produto, cobranças indevidas, relações de consumo e ações indenizatórias.</p>
+        </article>
+
+        <article class="area">
+          <span class="area__num">06</span>
+          <div class="area__icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M4 16a12 12 0 0 1 24 0z"/><path d="M16 16v9a3 3 0 0 0 6 0"/><path d="M16 4v2"/></svg>
+          </div>
+          <h3>Direito Previdenciário</h3>
+          <p>Aposentadorias, revisões de benefício, auxílios por incapacidade e planejamento previdenciário.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ MANIFESTO ══════════════ -->
+  <section class="about" id="sobre">
+    <div class="container">
+      <div class="about__grid">
+        <div class="about__visual reveal" aria-hidden="true">
+          <span class="about__monogram">M&amp;V</span>
+        </div>
+        <div class="reveal">
+          <span class="eyebrow" style="display:block;margin-bottom:22px">O escritório</span>
+          <blockquote class="about__quote">"O cliente deve entender cada etapa do seu caso — não apenas assinar a procuração."</blockquote>
+          <div class="about__body">
+            <p>A Machado &amp; Vasconcelos nasceu em 2004 com uma convicção simples: informação não é concessão, é parte do trabalho. Desde então, mantemos o mesmo princípio — nenhuma decisão é tomada sem que o cliente compreenda o cenário, as alternativas e os custos.</p>
+            <p>Somos uma sociedade pequena por escolha. Cada caso tem um sócio responsável, um canal directo e uma cadência de comunicação acordada no início. Não somos uma fábrica de processos, e não pretendemos sê-lo.</p>
+          </div>
+          <div class="about__signature">
+            <div>
+              <strong>Helena Machado</strong>
+              <span>Sócia-fundadora · OAB/SP 12.345</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ COMO TRABALHAMOS ══════════════ -->
+  <section class="process">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Como trabalhamos</span>
+        <h2>Um método em quatro passos.</h2>
+        <p>Nenhum caso avança sem diagnóstico. Nenhum cliente fica sem saber o que acontece a seguir.</p>
+      </div>
+      <div class="process__grid">
+        <div class="step reveal" data-num="I">
+          <h3>Escuta</h3>
+          <p>Primeira conversa de 30 minutos, sem compromisso, para entender o contexto e a urgência.</p>
+        </div>
+        <div class="step reveal" data-num="II">
+          <h3>Diagnóstico</h3>
+          <p>Análise técnica dos documentos, riscos, prazos e probabilidade realista de êxito.</p>
+        </div>
+        <div class="step reveal" data-num="III">
+          <h3>Estratégia</h3>
+          <p>Plano de acção com alternativas, custos e calendário — sempre por escrito.</p>
+        </div>
+        <div class="step reveal" data-num="IV">
+          <h3>Acompanhamento</h3>
+          <p>Actualizações periódicas e canal directo com o sócio responsável pelo seu caso.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ EQUIPA ══════════════ -->
+  <section class="team" id="equipa">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Sócios</span>
+        <h2>Quem responde pelo seu caso.</h2>
+        <p>Três sócios, três especializações, um mesmo compromisso de disponibilidade directa.</p>
+      </div>
+      <div class="team__grid">
+        <article class="member reveal">
+          <div class="member__photo"><span class="member__initials">HM</span></div>
+          <div class="member__body">
+            <h3>Helena Machado</h3>
+            <div class="member__role">Sócia-fundadora</div>
+            <p class="member__areas">Família, Sucessões e Planeamento Patrimonial.</p>
+            <div class="member__oab">OAB/SP 12.345</div>
+          </div>
+        </article>
+        <article class="member reveal">
+          <div class="member__photo"><span class="member__initials">RV</span></div>
+          <div class="member__body">
+            <h3>Rodrigo Vasconcelos</h3>
+            <div class="member__role">Sócio</div>
+            <p class="member__areas">Empresarial, Contratos e Direito do Trabalho.</p>
+            <div class="member__oab">OAB/SP 23.456</div>
+          </div>
+        </article>
+        <article class="member reveal">
+          <div class="member__photo"><span class="member__initials">BA</span></div>
+          <div class="member__body">
+            <h3>Beatriz Andrade</h3>
+            <div class="member__role">Sócia</div>
+            <p class="member__areas">Imobiliário, Consumidor e Previdenciário.</p>
+            <div class="member__oab">OAB/SP 34.567</div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ DEPOIMENTOS ══════════════ -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">O que dizem os clientes</span>
+        <h2>Resultados que se medem também pelo processo.</h2>
+      </div>
+      <div class="testimonials__grid">
+        <figure class="quote reveal">
+          <blockquote class="quote__text">Recebi o diagnóstico por escrito antes de qualquer honorário. Isso mudou a relação de confiança desde o início.</blockquote>
+          <figcaption>
+            <div class="quote__author">Marina C.</div>
+            <div class="quote__role">Direito de Família · 2023</div>
+          </figcaption>
+        </figure>
+        <figure class="quote reveal">
+          <blockquote class="quote__text">Trabalho com contratos complexos. Foi a primeira vez que um escritório me entregou um parecer claro em linguagem que eu podia usar.</blockquote>
+          <figcaption>
+            <div class="quote__author">Felipe R.</div>
+            <div class="quote__role">Direito Empresarial · 2024</div>
+          </figcaption>
+        </figure>
+        <figure class="quote reveal">
+          <blockquote class="quote__text">Acompanhamento próximo, comunicação respeitosa e prazos cumpridos. Recomendo sem reservas.</blockquote>
+          <figcaption>
+            <div class="quote__author">Carla M.</div>
+            <div class="quote__role">Direito Imobiliário · 2024</div>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ FAQ ══════════════ -->
+  <section class="faq" id="faq">
+    <div class="container">
+      <div class="section-head reveal" style="margin-left:auto;margin-right:auto;text-align:center">
+        <span class="eyebrow" style="display:block;margin-bottom:20px">Perguntas frequentes</span>
+        <h2>Antes de marcar.</h2>
+      </div>
+      <div class="faq__list">
+        <details>
+          <summary>Como funciona a primeira consulta?</summary>
+          <p>A primeira conversa é de 30 minutos, sem compromisso, para entender o contexto do caso. Nesta etapa não há cobrança. Depois, enviamos por escrito uma proposta com escopo e honorários.</p>
+        </details>
+        <details>
+          <summary>Atendem de forma remota?</summary>
+          <p>Sim. Atendemos presencialmente em São Paulo e remotamente para clientes em todo o Brasil, com reuniões por videochamada e partilha segura de documentos.</p>
+        </details>
+        <details>
+          <summary>Como são definidos os honorários?</summary>
+          <p>Depende da natureza do caso. Trabalhamos com valor fixo (para consultoria e pareceres) ou percentual (para processos), sempre apresentado por escrito antes do início.</p>
+        </details>
+        <details>
+          <summary>Quais áreas do direito cobrem?</summary>
+          <p>Direito de Família, Trabalhista, Empresarial, Imobiliário, do Consumidor e Previdenciário. Casos fora destas áreas são encaminhados a parceiros de confiança.</p>
+        </details>
+        <details>
+          <summary>Os dados que partilhar ficam protegidos?</summary>
+          <p>Sim. Seguimos a LGPD e mantemos sigilo profissional previsto no Estatuto da OAB. Todos os documentos são tratados com confidencialidade absoluta.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ CONTACTO ══════════════ -->
+  <section class="contact" id="contacto">
+    <div class="container">
+      <div class="contact__grid">
+        <div class="contact__info reveal">
+          <span class="eyebrow" style="display:block;margin-bottom:20px">Contacto</span>
+          <h2>Vamos começar pela sua pergunta.</h2>
+          <p>Descreva brevemente o seu caso. Respondemos em até 24 horas úteis com os próximos passos.</p>
+          <div class="contact__items">
+            <div class="contact__item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 2 .7 2.9a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.2-1.2a2 2 0 0 1 2.1-.5c.9.3 1.9.6 2.9.7a2 2 0 0 1 1.7 2z"/></svg>
+              <div>
+                <strong>Telefone</strong>
+                <a href="tel:+551130000000">(11) 3000-0000</a>
+              </div>
+            </div>
+            <div class="contact__item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg>
+              <div>
+                <strong>E-mail</strong>
+                <a href="mailto:contato@machadovasconcelos.adv.br">contato@machadovasconcelos.adv.br</a>
+              </div>
+            </div>
+            <div class="contact__item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <strong>Endereço</strong>
+                <span>Av. Paulista, 1374 — Bela Vista<br>São Paulo — SP, 01310-100</span>
+              </div>
+            </div>
+            <div class="contact__item">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              <div>
+                <strong>Horário</strong>
+                <span>Segunda a sexta, 9h — 18h</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <form class="form reveal" id="contact-form" novalidate>
+          <div class="form__row">
+            <div class="form__field">
+              <label for="nome">Nome completo</label>
+              <input id="nome" name="nome" type="text" required autocomplete="name">
+            </div>
+            <div class="form__field">
+              <label for="email">E-mail</label>
+              <input id="email" name="email" type="email" required autocomplete="email">
+            </div>
+          </div>
+          <div class="form__row">
+            <div class="form__field">
+              <label for="telefone">Telefone</label>
+              <input id="telefone" name="telefone" type="tel" autocomplete="tel" placeholder="(11) 90000-0000">
+            </div>
+            <div class="form__field">
+              <label for="area">Área de interesse</label>
+              <select id="area" name="area" required>
+                <option value="">Selecione</option>
+                <option>Direito de Família</option>
+                <option>Direito Trabalhista</option>
+                <option>Direito Empresarial</option>
+                <option>Direito Imobiliário</option>
+                <option>Direito do Consumidor</option>
+                <option>Direito Previdenciário</option>
+                <option>Outro</option>
+              </select>
+            </div>
+          </div>
+          <div class="form__field">
+            <label for="mensagem">Como podemos ajudar?</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required placeholder="Descreva brevemente o seu caso..."></textarea>
+          </div>
+          <label class="form__check">
+            <input type="checkbox" name="lgpd" required>
+            <span>Autorizo o contacto e o tratamento dos meus dados nos termos da Lei Geral de Proteção de Dados (LGPD).</span>
+          </label>
+          <button type="submit" class="btn btn--gold">Enviar mensagem</button>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <span class="brand__mark">Machado <span style="color:var(--gold-soft)">&amp;</span> Vasconcelos</span>
+        <span class="brand__sub">Advocacia · São Paulo · Desde 2004</span>
+        <p>Sociedade de advogados dedicada a tornar o próximo passo jurídico compreensível — em seis áreas de prática e um mesmo método.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Áreas</h4>
+        <ul>
+          <li><a href="#areas">Família</a></li>
+          <li><a href="#areas">Trabalhista</a></li>
+          <li><a href="#areas">Empresarial</a></li>
+          <li><a href="#areas">Imobiliário</a></li>
+          <li><a href="#areas">Consumidor</a></li>
+          <li><a href="#areas">Previdenciário</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Escritório</h4>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#equipa">Equipa</a></li>
+          <li><a href="#faq">Perguntas frequentes</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="tel:+551130000000">(11) 3000-0000</a></li>
+          <li><a href="mailto:contato@machadovasconcelos.adv.br">contato@machadovasconcelos.adv.br</a></li>
+          <li><a href="#contacto">Av. Paulista, 1374</a></li>
+          <li><a href="#contacto">Bela Vista — São Paulo</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2025 Machado &amp; Vasconcelos Sociedade de Advogados · OAB/SP 12.345</span>
+      <span>Este site tem carácter informativo e não constitui aconselhamento jurídico. <a href="#contacto">Fale connosco</a>.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Menu mobile
+  const toggle = document.querySelector('.nav-toggle');
+  const menu = document.getElementById('menu');
+  toggle?.addEventListener('click', () => {
+    const open = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!open));
+    toggle.setAttribute('aria-label', open ? 'Abrir menu' : 'Fechar menu');
+    menu.classList.toggle('is-open', !open);
+  });
+  menu?.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    toggle.setAttribute('aria-expanded', 'false');
+    menu.classList.remove('is-open');
+  }));
+
+  // Reveal on scroll
+  const io = 'IntersectionObserver' in window
+    ? new IntersectionObserver((entries) => {
+        entries.forEach(e => {
+          if (e.isIntersecting) { e.target.classList.add('is-visible'); io.unobserve(e.target); }
+        });
+      }, { threshold: 0.12 })
+    : null;
+  document.querySelectorAll('.reveal').forEach(el => io ? io.observe(el) : el.classList.add('is-visible'));
+
+  // Formulário (demo — ligar a backend ou serviço como Formspree)
+  const form = document.getElementById('contact-form');
+  const status = document.getElementById('form-status');
+  form?.addEventListener('submit', (e) => {
+    e.preventDefault();
+    if (!form.checkValidity()) { form.reportValidity(); return; }
+    status.textContent = 'Recebemos a sua mensagem. Retornaremos em até 24 horas úteis.';
+    form.reset();
+  });
+</script>
+</body>
+</html>
